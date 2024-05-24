@@ -10,8 +10,7 @@ template <typename T> void iter(T *array, size_t len, void (*f)(T const &) )
         f(array[i]);
 }
 
-template <typename T>
-void printChar(T const &x)
+template <typename T> void printChar(T const &x)
 {
     std::cout << x << std::endl;
 }

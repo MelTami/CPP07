@@ -15,8 +15,7 @@ const std::string PURPLE = "\033[35;1m";
 const std::string CYAN = "\033[36;1m";
 const std::string GRAY = "\033[37;1m";
 
-template <typename T>
-class Array
+template <typename T> class Array
 {
     private:
         T *_array;
